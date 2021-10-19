@@ -953,6 +953,11 @@ if (document.querySelector('.slider-tips__body')) {
 		speed: 800,
 		loop: true,
 
+		/* смена прозрачности */
+		effect: 'fade',
+		/* Дополнение к 'fade' */
+		crossFade: true, // параллельная смена прозрачности
+
 		// Dotts
 		pagination: {
 			el: '.slider-tips__dotts',
@@ -974,7 +979,7 @@ if (document.querySelector('.slider-tips__body')) {
 				spaceBetween: 20,
 			},
 			992: {
-				slidesPerView: 3,
+				slidesPerView: 1,
 				spaceBetween: 32,
 			}
 		}
