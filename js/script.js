@@ -893,6 +893,20 @@ if (document.querySelector('.slider-main__body')) {
 		spaceBetween: 20,
 		watchOverflow: true,
 		speed: 3000,
+
+		/* поток */
+		effect: 'coverflow', // установить slidesPerView: 3
+		/* Дополнение к 'cube' */
+		coverflowEffect: {
+			/* угол */
+			slideShadows: true,
+			rotate: 20,
+			/* наложение */
+			stretch: 50,
+			/* тень */
+			slideShadows: false,
+		},
+
 		loop: true,
 		loopAdditionalSlides: 5,
 		preloadImages: false,
@@ -971,11 +985,11 @@ if (document.querySelector('.slider-tips__body')) {
 		},
 		breakpoints: {
 			320: {
-				slidesPerView: 1.1,
+				slidesPerView: 1,
 				spaceBetween: 15,
 			},
 			768: {
-				slidesPerView: 2,
+				slidesPerView: 1,
 				spaceBetween: 20,
 			},
 			992: {
