@@ -2796,9 +2796,9 @@ body._lock {
 		padding: 50px 0 0 0;
 	}
 
-	.controls-slider-main__arrows {
+	/* .controls-slider-main__arrows {
 		display: none;
-	}
+	} */
 
 	.advantages__item {
 		grid-template: auto auto/auto 1fr;
@@ -2848,9 +2848,9 @@ body._lock {
 		width: 100%;
 	}
 
-	.slider-tips__arrows {
+	/* .slider-tips__arrows {
 		display: none;
-	}
+	} */
 }
 
 @media (max-width: 479.98px) and (max-width: 1270px) {
